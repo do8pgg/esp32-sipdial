@@ -59,7 +59,11 @@ const char *sipuser     = "87654321";
 const char *sippasswd   = "74127412";
 
 // dial params 
-const char *sipdialnr   = "**611"; // "**1"; // **9 = Rundruf // **611 M2-2
+const char *sipdialnr   = "**611"; 
+// const char *sipdialnr   = "**1"; // Fon 1
+// const char *sipdialnr   = "**9"; // Rundruf
+// const char *sipdialnr   = "**612"; // DECT 2 / M2
+
 const char *sipdialtext = "Tuerklingel"; // Anzuzeigender Name
 
 // network params
